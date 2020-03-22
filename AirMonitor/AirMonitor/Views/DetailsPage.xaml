@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AirMonitor.Views.MainPage"
+             x:Class="AirMonitor.Views.DetailsPage"
              xmlns:controls="clr-namespace:AirMonitor.Views.Controls"
              BackgroundColor="{StaticResource ContentPageBackgroundColor}">
 
@@ -86,8 +86,8 @@
                                 Text="95%"
                                 Style="{StaticResource spanPropertyValue}" />
                             <Slider
-                                Value="0.95"
-                                Style="{StaticResource sliderHumidity}" />
+                                Style="{StaticResource sliderHumidity}"
+                                Value="0.95" />
                         </StackLayout>
                     </controls:ContentWithHeader.ControlContent>
                 </controls:ContentWithHeader>
@@ -101,8 +101,8 @@
                                 Style="{StaticResource spanPropertyValue}" />
                             <!-- Set Maximum before Minimum in Slider -->
                             <Slider
-                                Value="1026"
-                                Style="{StaticResource sliderPressure}" />
+                                Style="{StaticResource sliderPressure}"
+                                Value="1026"/>
                         </StackLayout>
                     </controls:ContentWithHeader.ControlContent>
                 </controls:ContentWithHeader>
