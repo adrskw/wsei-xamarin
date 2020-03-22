@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AirMonitor.Resources.Styles">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="stackLayoutMain" TargetType="StackLayout">
+        <Setter Property="Padding" Value="24"></Setter>
+        <Setter Property="Spacing" Value="12"></Setter>
+    </Style>
+    <Style x:Key="frameMain" TargetType="Frame">
+        <Setter Property="CornerRadius" Value="50"></Setter>
+        <Setter Property="Padding" Value="0"></Setter>
+        <Setter Property="HorizontalOptions" Value="Center"></Setter>
+        <Setter Property="VerticalOptions" Value="Center"></Setter>
+        <Setter Property="HeightRequest" Value="100"></Setter>
+        <Setter Property="WidthRequest" Value="100"></Setter>
+        <Setter Property="HasShadow" Value="False"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource FrameMainBackgroundColor}"></Setter>
+        <Setter Property="BorderColor" Value="{StaticResource FrameMainBorderColor}"></Setter>
+    </Style>
+    <Style x:Key="labelGreatQuality" TargetType="Label">
+        <Setter Property="FontSize" Value="20"></Setter>
+        <Setter Property="TextColor" Value="{StaticResource LabelGreatQualityTextColor}"></Setter>
+        <Setter Property="FontAttributes" Value="Bold"></Setter>
+        <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+    </Style>
+    <Style x:Key="labelSafeGoOut" TargetType="Label">
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="TextColor" Value="{StaticResource LabelSafeGoOutTextColor}"></Setter>
+    </Style>
+    <Style x:Key="labelCurrentIndex" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+    </Style>
+    <Style x:Key="spanCurrentIndex" TargetType="Span">
+        <Setter Property="FontAttributes" Value="Bold"></Setter>
+        <Setter Property="TextColor" Value="{StaticResource SpanCurrentIndexTextColor}"></Setter>
+        <Setter Property="FontSize" Value="32"></Setter>
+    </Style>
+    <Style x:Key="spanDisplayCAQI" TargetType="Span">
+        <Setter Property="TextColor" Value="{StaticResource SpanDisplayCAQITextColor}"></Setter>
+        <Setter Property="FontSize" Value="12"></Setter>
+    </Style>
+    <Style x:Key="spanPropertyValue" TargetType="Span">
+        <Setter Property="TextColor" Value="{StaticResource SpanPropertyValueTextColor}"></Setter>
+        <Setter Property="FontSize" Value="20"></Setter>
+    </Style>
+    <Style x:Key="spanPropertyUnit" TargetType="Span">
+        <Setter Property="TextColor" Value="{StaticResource SpanPropertyUnitTextColor}"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+    </Style>
+    <Style x:Key="boxViewVertical" TargetType="BoxView">
+        <Setter Property="VerticalOptions" Value="Fill"></Setter>
+        <Setter Property="HorizontalOptions" Value="Center"></Setter>
+        <Setter Property="WidthRequest" Value="1"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource BoxViewBackgroundColor}"></Setter>
+    </Style>
+    <Style x:Key="boxViewHorizontal" TargetType="BoxView">
+        <Setter Property="HorizontalOptions" Value="Fill"></Setter>
+        <Setter Property="HeightRequest" Value="1"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource BoxViewBackgroundColor}"></Setter>
+    </Style>
+    <Style x:Key="sliderHumidity" TargetType="Slider">
+        <Setter Property="MaximumTrackColor" Value="{StaticResource SliderPropertyMaximumTrackColor}"></Setter>
+        <Setter Property="MinimumTrackColor" Value="{StaticResource SliderPropertyMinimumTrackColor}"></Setter>
+        <Setter Property="ThumbColor" Value="{StaticResource SliderPropertyThumbColor}"></Setter>
+    </Style>
+    <Style x:Key="sliderPressure" TargetType="Slider">
+        <Setter Property="MaximumTrackColor" Value="{StaticResource SliderPropertyMaximumTrackColor}"></Setter>
+        <Setter Property="MinimumTrackColor" Value="{StaticResource SliderPropertyMinimumTrackColor}"></Setter>
+        <Setter Property="ThumbColor" Value="{StaticResource SliderPropertyThumbColor}"></Setter>
+        <Setter Property="Maximum" Value="1100"></Setter>
+        <Setter Property="Minimum" Value="900"></Setter>
+    </Style>
+    <Style x:Key="imageHelp" TargetType="Image">
+        <Setter Property="HorizontalOptions" Value="End"></Setter>
+        <Setter Property="VerticalOptions" Value="Start"></Setter>
+        <Setter Property="WidthRequest" Value="48"></Setter>
+        <Setter Property="HeightRequest" Value="72"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource ImageHelpBackgroundColor}"></Setter>
+    </Style>
+</ResourceDictionary>

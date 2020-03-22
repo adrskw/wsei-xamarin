@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AirMonitor.Resources.Colors">
+    <Color x:Key="ContentPageBackgroundColor">#f9f9f9</Color>
+    <Color x:Key="FrameMainBackgroundColor">#33f069</Color>
+    <Color x:Key="FrameMainBorderColor">Gray</Color>
+    <Color x:Key="LabelGreatQualityTextColor">Black</Color>
+    <Color x:Key="LabelSafeGoOutTextColor">Black</Color>
+    <Color x:Key="SpanCurrentIndexTextColor">Black</Color>
+    <Color x:Key="SpanDisplayCAQITextColor">DarkSlateGray</Color>
+    <Color x:Key="SpanPropertyValueTextColor">Black</Color>
+    <Color x:Key="SpanPropertyUnitTextColor">Black</Color>
+    <Color x:Key="BoxViewBackgroundColor">LightGray</Color>
+    <Color x:Key="SliderPropertyMaximumTrackColor">Gray</Color>
+    <Color x:Key="SliderPropertyMinimumTrackColor">CornflowerBlue</Color>
+    <Color x:Key="SliderPropertyThumbColor">CornflowerBlue</Color>
+    <Color x:Key="ImageHelpBackgroundColor">Transparent</Color>
+</ResourceDictionary>
